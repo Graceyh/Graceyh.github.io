@@ -1,4 +1,4 @@
-name: Grace, go getter
+name: Grace, go-getter
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
@@ -7,3 +7,5 @@ paginate: 5
 
 #specify the destination of teh pagination pages
 paginate_path: "/blog/page:num/"
+gems:
+  - jekyll-sitemap
