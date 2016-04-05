@@ -1,2 +1,3 @@
 name: Grace, go getter
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
