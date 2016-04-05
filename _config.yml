@@ -1,3 +1,9 @@
 name: Grace, go getter
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+#specify the maximum number of Posts I'd  like to be displayed per-page in the site
+paginate: 5
+
+#specify the destination of teh pagination pages
+paginate_path: "/blog/page:num/"
